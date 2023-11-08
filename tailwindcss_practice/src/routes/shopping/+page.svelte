@@ -52,7 +52,7 @@
     {#each shopAreaLocations as place ,index}
         <div class="w-full h-20">
             <h2>{index + 1}. {place.name}</h2>
-            <p class="pl-3 text-2xl">{place.description}</p>
+            <p class="pl-3 text-2xl">notes: {place.description}</p>
             <p>{place.location}</p>
         </div>
     {/each}
